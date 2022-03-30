@@ -55,7 +55,7 @@ color_img=cv2.imread('img.jpg',1)
 for i in range(100):
     for j in range(color_img.shape[1]):
         color_img[i][j]=[random.randint(0,255),random.randint(0,255),random.randint(0,255)]
-cv2.imshow('cimg',color_img)
+cv2.imshow('212221240028,S.MEENA',color_img)
 cv2.waitKey(0)
 
 
@@ -66,7 +66,7 @@ import cv2
 color_img=cv2.imread('img.jpg',-1)
 tag=color_img[300:400,300:400]
 color_img[50:150,50:150]=tag
-cv2.imshow('cimg',color_img)
+cv2.imshow('212221240028,S.MEENA',color_img)
 cv2.waitKey(0)
 
 
@@ -82,36 +82,18 @@ cv2.waitKey(0)
 
 ### i) Read and display the image
 
-<br>
-![Screenshot (9)](https://user-images.githubusercontent.com/94677128/160786173-a929c539-79fa-47b1-82fe-5a0de56a62c5.png)
-
-<br>
+![output](./ss5.png)
 
 ### ii)Write the image
-
-<br>
-![Screenshot (13)](https://user-images.githubusercontent.com/94677128/160787251-6cdfddd6-d369-4a7e-a18b-37c641cc6d1f.png)
-
-<br>
+![output](./ss3.png)
 
 ### iii)Shape of the Image
 
-<br>
-![Screenshot (10)](https://user-images.githubusercontent.com/94677128/160787345-04e26a36-7fc8-45f4-91e2-32b3ebb41cd6.png)
-
-<br>
-
+![output](./ss1.png)
 ### iv)Access rows and columns
-<br>
-![Screenshot (12)](https://user-images.githubusercontent.com/94677128/160787480-97479314-aabd-4016-bbd3-ec133602f13f.png)
-
-<br>
-
+![output](./ss4.png)
 ### v)Cut and paste portion of image
-<br>
-![Screenshot (11)](https://user-images.githubusercontent.com/94677128/160787585-57e6e10a-dc58-4a20-9ff6-9aeac8601608.png)
-
-<br>
+![output](./ss2.png)
 
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
