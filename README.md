@@ -84,7 +84,7 @@ cv2.waitKey(0)
 
 
 
-```
+
 ## Output:
 
 ### i) Read and display the image
