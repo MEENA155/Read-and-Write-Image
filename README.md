@@ -23,17 +23,18 @@ End the program and close the output image windows.
 ```python
 # Developed By:S.MEENA
 # Register Number;212221240028
-# To Read,display the image
 ```
+# To Read,display the image
+
 import cv2
 color_img=cv2.imread('img.jpg',1)
 cv2.imshow('212221240028,S.MEENA',color_img)
 cv2.waitKey(0)
 ```
 
-
-# To write the image
 ```
+# To write the image
+
 import cv2
 color_img=cv2.imread('img.jpg',1)
 w=cv2.imwrite('1.png',color_img)
@@ -42,18 +43,18 @@ cv2.waitKey(0)
 ```
 
 
-
-# Find the shape of the Image
 ```
+# Find the shape of the Image
+
 import cv2
 import random
 color_img=cv2.imread('img.jpg',1)
 print(color_img.shape)
 ```
 
-
-# To access rows and columns
 ```
+# To access rows and columns
+
 import cv2
 import random
 color_img=cv2.imread('img.jpg',1)
@@ -65,9 +66,9 @@ cv2.waitKey(0)
 ```
 
 
-
-# To cut and paste portion of image
 ```
+# To cut and paste portion of image
+
 import cv2
 color_img=cv2.imread('img.jpg',-1)
 tag=color_img[300:400,300:400]
@@ -83,7 +84,7 @@ cv2.waitKey(0)
 
 
 
-
+```
 ## Output:
 
 ### i) Read and display the image
